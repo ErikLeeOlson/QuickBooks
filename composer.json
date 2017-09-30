@@ -1,0 +1,24 @@
+{
+    "name": "erikleeolson/quickbooks",
+    "description": "A simple Quickbooks API wrapper",
+    "keywords": ["quickbooks", "composer", "package"],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Erik Olson",
+            "email": "Erik@EvoDialer.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=5.4"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "ErikLeeOlson\\QuickBooks\\": "src/"
+        }
+    }
+}
